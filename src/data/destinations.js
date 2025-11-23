@@ -153,7 +153,7 @@ const destinations = [
   image:
     "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=800&q=60",
 },
-
+//added more areas to visit
   {
     id: "dubai",
     name: "Dubai, UAE",
