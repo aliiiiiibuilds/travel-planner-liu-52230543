@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/travel-planner-liu-52230543/static/css/main.7e48f2ea.css",
+    "main.js": "/travel-planner-liu-52230543/static/js/main.d248ddbb.js",
+    "index.html": "/travel-planner-liu-52230543/index.html",
+    "main.7e48f2ea.css.map": "/travel-planner-liu-52230543/static/css/main.7e48f2ea.css.map",
+    "main.d248ddbb.js.map": "/travel-planner-liu-52230543/static/js/main.d248ddbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e48f2ea.css",
+    "static/js/main.d248ddbb.js"
+  ]
+}
