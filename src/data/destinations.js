@@ -154,6 +154,7 @@ const destinations = [
     "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=800&q=60",
 },
 //added more areas to visit
+// Dubai, UAE
   {
     id: "dubai",
     name: "Dubai, UAE",
@@ -175,6 +176,29 @@ const destinations = [
     image:
       "https://images.pexels.com/photos/3787839/pexels-photo-3787839.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
+  {
+  id: "egypt",
+  name: "Cairo, Egypt",
+  country: "Egypt",
+  flag: "🇪🇬",
+  shortDescription: "Land of pyramids, ancient history, and vibrant markets.",
+  description:
+    "Cairo is a historic capital known for the Pyramids of Giza, the Sphinx, the Egyptian Museum, and its bustling bazaars. Visitors enjoy a mix of ancient wonders and modern Middle Eastern culture.",
+  bestTime: "October – April",
+  budgetLevel: "Low to Medium",
+  budgetTag: "low",
+  priceRange: "$$",
+  highlights: [
+    "Pyramids of Giza",
+    "The Great Sphinx",
+    "Egyptian Museum",
+    "Khan el-Khalili Bazaar",
+    "Nile River Cruise"
+  ],
+  image:
+    "https://images.unsplash.com/photo-1587314168485-3236d1f97c2a?auto=format&fit=crop&w=800&q=60",
+},
+
 ];
 
 export default destinations;
