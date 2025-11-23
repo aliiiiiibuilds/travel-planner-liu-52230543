@@ -1,70 +1,160 @@
-# Getting Started with Create React App
+# TravelBuddy – Travel Planner (CSCI426 Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My phase1 project using react for doctor mirna
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📘 Course Information
 
-### `npm start`
+**Student name:** Ali Ibrahim
+**ID:** 52230543
+**Course:** CSCI426 web 2
+**Project:** Frontend Application
+**Department:** cs
+**University:** LIU
+**Instructor:** Doctor Mirna Mokhtar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## HOW TO INSTALL PROJECT
 
-### `npm test`
+Make sure you have the following installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Node.js** (v14+ recommended)
+* **npm** (comes with Node.js)
+* A modern web browser (Chrome, Firefox, etc.)
 
-### `npm run build`
+### Step 1 — Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/aliiiiiibuilds/travel-planner-liu-52230543.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ▶️ Step 2 — Move into the Project Folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd travel-planner-liu-52230543
+```
 
-### `npm run eject`
+### ▶️ Step 3 — Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ▶️ Step 4 — Run the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Your browser will open at:
 
-## Learn More
+```
+http://localhost:3000/
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+src/
+├── components/
+│   └── Navbar.js
+├── data/
+│   └── destinations.js
+├── pages/
+│   ├── Home.js
+│   ├── About.js
+│   ├── Features.js
+│   ├── Contact.js
+│   ├── DestinationDetails.js
+│   └── NotFound.js
+├── App.js
+├── index.js
+└── index.css
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## ✨ Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Browse a list of world destinations
+* Search bar to filter destinations by name
+* Budget filter (Low / Medium / High)
+* Pagination system for cleaner browsing
+* **Dynamic destination details page** (`/destination/:id`)
+* Loading animation on details page
+* Dark/Light mode toggle
+* Fully responsive UI using Bootstrap + custom CSS
+* Smooth animations and polished design
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 Pages Included
 
-### Advanced Configuration
+* **Home** – Filters + destinations grid
+* **About** – Project overview
+* **Features** – Description of system features
+* **Contact** – Demo contact form
+* **NotFound** – 404 error page
+* **Destination Details** *(Dynamic Page)* – Required dynamic route
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+##  Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* ReactJS
+* React Router DOM
+* Bootstrap (for layout + styling)
+* Custom CSS (animations + theming)
+* JavaScript (ES6+)
+* Git & GitHub for version control
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Screenshots of UI
+
+###  Home Page
+
+<img src="https://github.com/user-attachments/assets/47c307f2-8704-46dc-b641-13ea4e3ded5b" width="700" />
+
+###  Dark Mode
+
+<img src="https://github.com/user-attachments/assets/047cc604-f5be-484c-94dc-62a75ba0acd2" width="700" />
+
+###  Destination Details
+
+<img src="https://github.com/user-attachments/assets/60a1968e-3abb-46fd-81e4-69e6472a8fe6" width="700" />
+
+###  Contact Demo
+
+<img src="https://github.com/user-attachments/assets/e20963c5-6ae8-4a34-bfc8-560c9a5d46ca" width="700" />
+
+---
+
+##  Future Improvements
+
+* User login system
+* Saved trips / favorites
+* Real travel API integration
+* More filters (price range, continent)
+* Multi-language support
+
+---
+
+##  Requirements Completed
+
+* React frontend ✔
+* 5+ pages ✔
+* 1 dynamic page ✔
+* Responsive UI ✔
+* Git version control ✔
+* GitHub deployment ready ✔
+
+---
+
+##  Final Note
+
+**I tried my best doctor, please give me a good grade! 😄**
