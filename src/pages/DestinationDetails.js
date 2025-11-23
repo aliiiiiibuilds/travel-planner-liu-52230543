@@ -8,7 +8,7 @@ function DestinationDetails() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a short loading time when navigating to this page
+//got it from chatgpt
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);

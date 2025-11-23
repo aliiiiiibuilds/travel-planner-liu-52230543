@@ -17,7 +17,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(
-      "Thank you for your message. This is a demo form and no data is actually sent to a server."
+      "demo form submitedd"
     );
     setFormData({ name: "", email: "", message: "" });
   };

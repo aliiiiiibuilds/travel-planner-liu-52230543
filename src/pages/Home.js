@@ -26,14 +26,14 @@ function Home() {
     startIndex + itemsPerPage
   );
 
-  // Reset to page 1 when filters change
+  
   useEffect(() => {
     setCurrentPage(1);
   }, [searchTerm, budgetFilter]);
 
   return (
     <div>
-      {/* Hero section */}
+      {}
       <div className="hero">
         <h1 className="display-5 fw-bold">
           Plan your next trip with TravelBuddy
@@ -48,7 +48,7 @@ function Home() {
         </Link>
       </div>
 
-      {/* Filters */}
+      {}
       <div className="filters-bar mb-4">
         <div className="row g-3 align-items-end">
           <div className="col-md-6">
@@ -89,7 +89,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Destinations grid */}
+      {}
       <h2 className="section-title">Popular Destinations</h2>
       <p className="text-muted mb-3">
         The list below shows a small sample of destinations. You can search by
@@ -154,7 +154,7 @@ function Home() {
         </div>
       )}
 
-      {/* Pagination */}
+      {}
       {filteredDestinations.length > itemsPerPage && (
         <nav className="pagination-container">
           <ul className="pagination justify-content-center">
